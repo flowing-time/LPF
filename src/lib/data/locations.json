@@ -1,0 +1,392 @@
+[
+  {
+    "id": "sjpl-10",
+    "system": "SJPL",
+    "name": "Almaden",
+    "branchId": "10",
+    "address": "6445 Camden Ave., San Jose, CA 95120",
+    "lat": 37.2214972,
+    "lng": -121.86901510000001,
+    "phone": "(408) 808-3040"
+  },
+  {
+    "id": "sjpl-11",
+    "system": "SJPL",
+    "name": "Pearl Avenue",
+    "branchId": "11",
+    "address": "4270 Pearl Ave., San Jose, CA 95136",
+    "lat": 37.2678857,
+    "lng": -121.86631219999998,
+    "phone": "(408) 808-3053"
+  },
+  {
+    "id": "sjpl-12",
+    "system": "SJPL",
+    "name": "Edenvale",
+    "branchId": "12",
+    "address": "101 Branham Lane East, San Jose, CA 95111",
+    "lat": 37.2677138,
+    "lng": -121.8211192,
+    "phone": "(408) 808-3036"
+  },
+  {
+    "id": "sjpl-14",
+    "system": "SJPL",
+    "name": "Evergreen",
+    "branchId": "14",
+    "address": "2635 Aborn Rd, San Jose, CA 95121",
+    "lat": 37.31417433052127,
+    "lng": -121.79582893757322,
+    "phone": "(408) 808-3060"
+  },
+  {
+    "id": "sjpl-15",
+    "system": "SJPL",
+    "name": "Biblioteca Latinoamericana",
+    "branchId": "15",
+    "address": "921 South First St, San Jose, CA 95110",
+    "lat": 37.3223467,
+    "lng": -121.88036460000001,
+    "phone": "(408) 294-1237"
+  },
+  {
+    "id": "sjpl-16",
+    "system": "SJPL",
+    "name": "Educational Park",
+    "branchId": "16",
+    "address": "1772 Educational Park Dr., San Jose, CA 95133",
+    "lat": 37.3656547,
+    "lng": -121.8577732,
+    "phone": "(408) 808-3073"
+  },
+  {
+    "id": "sjpl-17",
+    "system": "SJPL",
+    "name": "Joyce Ellington",
+    "branchId": "17",
+    "address": "491 E. Empire St, San Jose, CA 95112",
+    "lat": 37.3498412,
+    "lng": -121.88694550000002,
+    "phone": "(408) 808-3043"
+  },
+  {
+    "id": "sjpl-18",
+    "system": "SJPL",
+    "name": "Alviso",
+    "branchId": "18",
+    "address": "5050 North First St., San Jose, CA 95002",
+    "lat": 37.42462140000001,
+    "lng": -121.96916494603272,
+    "phone": "(408) 808-3052"
+  },
+  {
+    "id": "sjpl-19",
+    "system": "SJPL",
+    "name": "Santa Teresa",
+    "branchId": "19",
+    "address": "290 International Circle, San Jose, CA 95119",
+    "lat": 37.2375026,
+    "lng": -121.79976169999998,
+    "phone": "(408) 808-3068"
+  },
+  {
+    "id": "sjpl-21",
+    "system": "SJPL",
+    "name": "Vineland",
+    "branchId": "21",
+    "address": "1450 Blossom Hill Rd, San Jose, CA 95118",
+    "lat": 37.2401849,
+    "lng": -121.89248800000001,
+    "phone": "(408) 808-3000"
+  },
+  {
+    "id": "sjpl-22",
+    "system": "SJPL",
+    "name": "Alum Rock",
+    "branchId": "22",
+    "address": "3090 Alum Rock Ave, San Jose, CA 95127",
+    "lat": 37.3653857,
+    "lng": -121.8280595,
+    "phone": "(408) 808-3090"
+  },
+  {
+    "id": "sjpl-23",
+    "system": "SJPL",
+    "name": "Tully",
+    "branchId": "23",
+    "address": "880 Tully Rd, San Jose, CA 95111",
+    "lat": 37.3114172,
+    "lng": -121.84091569999998,
+    "phone": "(408) 808-3030"
+  },
+  {
+    "id": "sjpl-24",
+    "system": "SJPL",
+    "name": "Bascom",
+    "branchId": "24",
+    "address": "1000 S. Bascom Ave, San Jose, CA 95128",
+    "lat": 37.3076292,
+    "lng": -121.9314005,
+    "phone": "(408) 808-3077"
+  },
+  {
+    "id": "sjpl-25",
+    "system": "SJPL",
+    "name": "Village Square",
+    "branchId": "25",
+    "address": "4001 Evergreen Village Square, San Jose, CA 95135",
+    "lat": 37.3134119,
+    "lng": -121.77448349999997,
+    "phone": "(408) 808-3093"
+  },
+  {
+    "id": "sjpl-26",
+    "system": "SJPL",
+    "name": "Mt. Pleasant",
+    "branchId": "26",
+    "address": "3411 Rocky Mountain Dr, San Jose, CA 95127",
+    "lat": 37.35243699999999,
+    "lng": -121.8006643,
+    "phone": "(408) 808-3088"
+  },
+  {
+    "id": "sjpl-09",
+    "system": "SJPL",
+    "name": "Berryessa",
+    "branchId": "09",
+    "address": "3355 Noble Avenue, San Jose, CA 95132",
+    "lat": 37.3939433,
+    "lng": -121.84073769999998,
+    "phone": "(408) 808-3050"
+  },
+  {
+    "id": "sjpl-07",
+    "system": "SJPL",
+    "name": "Calabazas",
+    "branchId": "07",
+    "address": "1230 S Blaney Ave, San Jose, CA 95129",
+    "lat": 37.30262159999999,
+    "lng": -122.02345409999998,
+    "phone": "(408) 808-3066"
+  },
+  {
+    "id": "sjpl-04",
+    "system": "SJPL",
+    "name": "Cambrian",
+    "branchId": "04",
+    "address": "1780 Hillsdale Ave, San Jose, CA 95124",
+    "lat": 37.2644099,
+    "lng": -121.91504309999999,
+    "phone": "(408) 808-3080"
+  },
+  {
+    "id": "sjpl-02",
+    "system": "SJPL",
+    "name": "East SJ Carnegie",
+    "branchId": "02",
+    "address": "1102 E Santa Clara St, San Jose, CA 95116",
+    "lat": 37.3464738,
+    "lng": -121.8682245,
+    "phone": "(408) 808-3075"
+  },
+  {
+    "id": "sjpl-06",
+    "system": "SJPL",
+    "name": "Hillview",
+    "branchId": "06",
+    "address": "1600 Hopkins Dr, San Jose, CA 95122",
+    "lat": 37.3378638,
+    "lng": -121.8310846,
+    "phone": "(408) 808-3033"
+  },
+  {
+    "id": "sjpl-00",
+    "system": "SJPL",
+    "name": "King Library",
+    "branchId": "00",
+    "address": "150 E San Fernando St, San Jose, California 95112",
+    "lat": 37.3356906,
+    "lng": -121.88525579999998,
+    "phone": "(408) 808-2000"
+  },
+  {
+    "id": "sjpl-03",
+    "system": "SJPL",
+    "name": "Rose Garden",
+    "branchId": "03",
+    "address": "1580 Naglee Ave., San Jose, CA 95126",
+    "lat": 37.3318911,
+    "lng": -121.92626689999997,
+    "phone": "(408) 808-3070"
+  },
+  {
+    "id": "sjpl-08",
+    "system": "SJPL",
+    "name": "Seven Trees",
+    "branchId": "08",
+    "address": "3590 Cas Dr., San Jose, CA 95111",
+    "lat": 37.2849667,
+    "lng": -121.83326440000002,
+    "phone": "(408) 808-3056"
+  },
+  {
+    "id": "sjpl-05",
+    "system": "SJPL",
+    "name": "West Valley",
+    "branchId": "05",
+    "address": "1243 San Tomas Aquino Rd., San Jose, CA 95117",
+    "lat": 37.3023684,
+    "lng": -121.97939180000003,
+    "phone": "(408) 244-4747"
+  },
+  {
+    "id": "sjpl-01",
+    "system": "SJPL",
+    "name": "Willow Glen",
+    "branchId": "01",
+    "address": "1157 Minnesota Ave, San Jose, CA 95125",
+    "lat": 37.3029407,
+    "lng": -121.90006160000002,
+    "phone": "(408) 808-3045"
+  },
+  {
+    "id": "sccl-BK",
+    "system": "SCCLD",
+    "name": "Bookmobile",
+    "branchId": "BK",
+    "address": ", ,",
+    "lat": 37.2770029,
+    "lng": -121.9529992,
+    "phone": "(408) 883-6959"
+  },
+  {
+    "id": "sccl-CA",
+    "system": "SCCLD",
+    "name": "Campbell Express Library",
+    "branchId": "CA",
+    "address": "1 West Campbell Avenue, Room E46, Campbell, CA 95008",
+    "lat": 37.28823412832292,
+    "lng": -121.95084917672119,
+    "phone": "(408) 866-1991"
+  },
+  {
+    "id": "sccl-CU",
+    "system": "SCCLD",
+    "name": "Cupertino Library",
+    "branchId": "CU",
+    "address": "10800 Torre Avenue, Cupertino, CA 95014",
+    "lat": 37.3177895,
+    "lng": -122.02896069999997,
+    "phone": "(408) 446-1677"
+  },
+  {
+    "id": "sccl-GI",
+    "system": "SCCLD",
+    "name": "Gilroy Library",
+    "branchId": "GI",
+    "address": "350 W. Sixth Street, Gilroy, CA 95020",
+    "lat": 37.005049,
+    "lng": -121.57280639999999,
+    "phone": "(408) 842-8207"
+  },
+  {
+    "id": "sccl-LA",
+    "system": "SCCLD",
+    "name": "Los Altos Library",
+    "branchId": "LA",
+    "address": "13 S. San Antonio Road, Los Altos, CA 94022",
+    "lat": 37.3808782,
+    "lng": -122.11330029999999,
+    "phone": "(650) 948-7683"
+  },
+  {
+    "id": "sccl-MI",
+    "system": "SCCLD",
+    "name": "Milpitas Library",
+    "branchId": "MI",
+    "address": "160 North Main Street, Milpitas, CA 95035",
+    "lat": 37.4324496,
+    "lng": -121.90650790000001,
+    "phone": "(408) 262-1171"
+  },
+  {
+    "id": "sccl-MH",
+    "system": "SCCLD",
+    "name": "Morgan Hill Library",
+    "branchId": "MH",
+    "address": "660 West Main Ave., Morgan Hill, CA 95037",
+    "lat": 37.1241438,
+    "lng": -121.66279930000002,
+    "phone": "(408) 779-3196"
+  },
+  {
+    "id": "sccl-SA",
+    "system": "SCCLD",
+    "name": "Saratoga Library",
+    "branchId": "SA",
+    "address": "13650 Saratoga Avenue, Saratoga, CA 95070",
+    "lat": 37.2701161,
+    "lng": -122.015105,
+    "phone": "(408) 867-6126"
+  },
+  {
+    "id": "sccl-HQ",
+    "system": "SCCLD",
+    "name": "Services and Support Center",
+    "branchId": "HQ",
+    "address": "1370 Dell Ave., Campbell, CA 95008",
+    "lat": 37.2661411,
+    "lng": -121.95376540000001,
+    "phone": "(408) 293-2326"
+  },
+  {
+    "id": "sccl-WO",
+    "system": "SCCLD",
+    "name": "Woodland Branch Library",
+    "branchId": "WO",
+    "address": "1975 Grant Road, Los Altos, CA 94024",
+    "lat": 37.3442675,
+    "lng": -122.07544430000002,
+    "phone": "(650) 969-6030"
+  },
+  {
+    "id": "sclibrary-central",
+    "system": "SantaClaraCity",
+    "name": "Central Park Library",
+    "branchId": "central",
+    "address": "2635 Homestead Rd, Santa Clara, CA 95051",
+    "lat": 37.3486,
+    "lng": -121.9754,
+    "phone": "(408) 615-2900"
+  },
+  {
+    "id": "sclibrary-northside",
+    "system": "SantaClaraCity",
+    "name": "Northside Branch Library",
+    "branchId": "northside",
+    "address": "695 Moreland Way, Santa Clara, CA 95054",
+    "lat": 37.3995,
+    "lng": -121.9442,
+    "phone": "(408) 615-5500"
+  },
+  {
+    "id": "sclibrary-mission",
+    "system": "SantaClaraCity",
+    "name": "Mission Branch Library",
+    "branchId": "mission",
+    "address": "1098 Lexington St, Santa Clara, CA 95050",
+    "lat": 37.3551,
+    "lng": -121.9446,
+    "phone": "(408) 615-2964"
+  },
+  {
+    "id": "mv-main",
+    "system": "MountainView",
+    "name": "Mountain View Public Library",
+    "branchId": "main",
+    "address": "585 Franklin St, Mountain View, CA 94041",
+    "lat": 37.3926,
+    "lng": -122.0833,
+    "phone": "(650) 903-6337"
+  }
+]
