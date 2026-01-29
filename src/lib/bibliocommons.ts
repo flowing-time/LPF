@@ -53,7 +53,7 @@ export async function fetchBiblioCommonsAvailability(
             branchName,
             available: counts.available,
             total: counts.total,
-            status: (counts.available > 0 ? 'Available' : 'Unavailable') as const
+            status: (counts.available > 0 ? 'Available' : 'Unavailable') as 'Available' | 'Unavailable'
         }));
 
     } catch (error) {

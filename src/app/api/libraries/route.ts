@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import { LIBRARY_CONFIGS, LOCATIONS } from '@/lib/constants';
 import { fetchBiblioCommonsAvailability } from '@/lib/bibliocommons';
 import { Availability, LibraryAvailability } from '@/lib/types';
+import { fetchMountainViewAvailability } from '@/lib/vegaScraper';
 
 export const revalidate = 300; // Cache for 5 minutes
 
@@ -21,7 +22,32 @@ export async function GET() {
         const results: { type: string, data: Availability[] }[] = [];
 
         if (config.apiId === 'mv') {
-            // Return dummy availability with "Check Library" status
+            // Use Puppeteer to scrape Mountain View catalog
+            try {
+                const mvResult = await fetchMountainViewAvailability();
+                if (mvResult) {
+                    return {
+                        config,
+                        results: [{
+                            type: 'caState',
+                            data: [mvResult]
+                        },
+                        {
+                            type: 'sccCounty',
+                            data: [{
+                                branchName: 'Mountain View Public Library',
+                                available: 0,
+                                total: 0,
+                                status: 'Check Library' as const // MV doesn't have county pass
+                            }]
+                        }]
+                    };
+                }
+            } catch (e) {
+                console.error('[MV Scraper] Failed:', e);
+            }
+
+            // Fallback if scraping fails
             return {
                 config,
                 results: [{
@@ -30,7 +56,16 @@ export async function GET() {
                         branchName: 'Mountain View Public Library',
                         available: 0,
                         total: 0,
-                        status: 'Check Library'
+                        status: 'Check Library' as const
+                    }]
+                },
+                {
+                    type: 'sccCounty',
+                    data: [{
+                        branchName: 'Mountain View Public Library',
+                        available: 0,
+                        total: 0,
+                        status: 'Check Library' as const
                     }]
                 }]
             };
@@ -66,7 +101,8 @@ export async function GET() {
                     loc = allLocations.find(l => {
                         const sysMatch = (config.id === 'sjpl' && l.system === 'SJPL') ||
                             (config.id === 'sccl' && l.system === 'SCCLD') ||
-                            (config.id === 'sclibrary' && l.system === 'SantaClaraCity');
+                            (config.id === 'sclibrary' && l.system === 'SantaClaraCity') ||
+                            (config.id === 'mv' && l.system === 'MountainView');
                         if (!sysMatch) return false;
 
                         // Name match
