@@ -2,9 +2,15 @@
 
 import { useEffect, useState } from 'react';
 import { LibraryAvailability } from '@/lib/types';
-import Map from '@/components/Map'; // This imports the dynamic loading one
+import Map from '@/components/Map';
 
-export default function MapWrapper() {
+export type PassType = 'caState' | 'sccCounty';
+
+interface MapWrapperProps {
+    passType: PassType;
+}
+
+export default function MapWrapper({ passType }: MapWrapperProps) {
     const [locations, setLocations] = useState<LibraryAvailability[]>([]);
     const [loading, setLoading] = useState(true);
 
@@ -28,5 +34,5 @@ export default function MapWrapper() {
         return <div className="w-full h-full flex items-center justify-center bg-gray-100">Finding passes...</div>;
     }
 
-    return <Map locations={locations} />;
+    return <Map locations={locations} passType={passType} />;
 }
